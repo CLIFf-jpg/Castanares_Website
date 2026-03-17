@@ -1,0 +1,212 @@
+/*HEADER*/
+header {
+  background-color: #006AA7;
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 4px solid #FECC02;
+  height: 100px;
+}
+
+.text-VS {
+  font-size: 50px;
+  font-weight: 700;
+  color: #FECC02;
+  letter-spacing: 1px;
+  text-align: center;
+
+}
+.homepage{
+  text-align: right;
+  font-size: 20px;
+}
+
+.text-VS span {
+  color: #ffffff;
+}
+
+/* === NAVIGATION === */
+nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: -53px 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0px;
+}
+
+nav ul li {
+  position: relative;
+  height: 100%;
+}
+
+nav ul li > a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 16px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+nav ul li > a:hover {
+  background-color: #005a8e;
+  border-bottom: 3px solid #FECC02;
+  color: #FECC02;
+}
+
+/* === DROPDOWN MENU (CSS ONLY) === */
+nav ul li .dropdown {
+  display: none;
+  position: absolute;
+  top: 68%;
+  left: 0;
+  background-color: #005a8e;
+  border-top: 4px solid #FECC02;
+  min-width: 200px;
+  list-style: none;
+  padding: 0px 0;
+  padding-bottom: 120px;
+}
+
+nav ul li:hover .dropdown {
+  display: block;
+}
+
+nav ul li .dropdown li {
+  height: auto;
+}
+
+nav ul li .dropdown li a {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  height: auto;
+  
+}
+
+nav ul li .dropdown li a:hover {
+  background-color: #FECC02;
+  color: #006AA7;
+  padding-left: 30px;
+  font-weight: 600;
+ 
+}
+
+.gallery{
+	margin-top: 20px;
+}
+
+.pic{
+	display: inline-block;
+	margin: 10px;
+}
+
+.box{
+  background-color: #006AA7;
+  color: #ffffff;
+  text-align: center;
+  padding: 45px 40px;
+  border-bottom: 6px solid #FECC02;
+}
+.box h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #FECC02;
+}
+
+.box p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 28px;
+  color: #d9eaf5;
+}
+
+
+.welcome-banner {
+  background-color: #ffffff;
+  border: 3px solid #dde8f0;
+  border-left: 8px solid #FECC02;
+  padding: 28px 32px;
+  margin: 40px;
+
+}
+
+.welcome-banner h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #006AA7;
+  margin-bottom: 10px;
+}
+
+.welcome-banner p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.8;
+
+}
+.info-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+.info-block {
+  background-color: #ffffff;
+  border: 1px solid #dde8f0;
+  padding: 28px;
+}
+
+.info-block h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #006AA7;
+  margin-bottom: 14px;
+  border-bottom: 3px solid #FECC02;
+  padding-bottom: 8px;
+}
+
+.info-block p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.info-block ul {
+  padding-left: 20px;
+  font-size: 14px;
+  color: #444;
+  line-height: 2;
+}
+/* === FOOTER === */
+footer {
+  background-color: #006AA7;
+  color: #ffffff;
+  border-top: 4px solid #FECC02;
+  padding: 10px;
+  margin-top: 60px;
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 28px auto 0;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: #a0c4dc;
+}
+
+/*HOME PAGE*/
